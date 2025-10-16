@@ -1,1 +1,1 @@
-# Interactive-Pincode-Manager
+A Python script that manages user names and pincodes with functions for displaying data in a table, updating pincodes securely, and validating 6-digit numeric entries. It also identifies and lists names shorter than five letters, demonstrating input validation, list handling, and user interaction.
