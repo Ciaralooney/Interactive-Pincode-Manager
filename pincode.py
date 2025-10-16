@@ -1,4 +1,3 @@
-# Name: Ciara Looney
 def print_all(list_names, list_pincodes):
     print(f"Username\t Pincode\n"
           f"++++++++++++++++++")
@@ -23,8 +22,8 @@ def change_pincode(name, list_names, list_pincodes):
                     except ValueError:
                         print("Please enter a numeric value")
 
-                # updating the pin code
-                list_pincodes.append(new_pin)
+                    # updating the pin code
+                list_pincodes[i] = (int(new_pin))
 
 
 def print_short_names(list_names):
